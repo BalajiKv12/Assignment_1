@@ -15,7 +15,7 @@ public class Qno_20 {
         System.out.println("----------------------");
         int n = sc.nextInt(); //gets user user option 
 
-        while (n>0 && n<=4) {
+        while (n>0 && n<=4) {  // while loop for repeating menu to user
 
         switch (n) {        //switchcase for different options
             case 1:     // case 1 for VEG 
@@ -32,21 +32,21 @@ public class Qno_20 {
                         int q = sc.nextInt();
                         System.out.println("\nYOUR ORDER PANNER BIRYANI x "+q+" HAS TAKEN SUCCESSFULLY");
                         System.out.println("---------THANK YOU---------");
-                        n=5;
+                        n=5; // closing loop
                         break;
                     case 2:
                         System.out.print("QUANTITY - ");
                         int w = sc.nextInt();
                         System.out.println("\nYOUR ORDER BUTTER NAAN, PANNER BUTTER MASALA x "+w+" HAS TAKEN SUCCESSFULLY");
                         System.out.println("---------THANK YOU---------");
-                        n=5;
+                        n=5;// closing loop
                         break;
                     case 3:
                         System.out.print("QUANTITY - ");
                         int e = sc.nextInt();
                         System.out.println("\nYOUR ORDER ONION DOSA x "+e+" HAS TAKEN SUCCESSFULLY");
                         System.out.println("---------THANK YOU---------");
-                        n=5;
+                        n=5;// closing loop
                         break;
 
                     default:
@@ -75,21 +75,21 @@ public class Qno_20 {
                         int q = sc.nextInt();
                         System.out.println("\nYOUR ORDER CHICKEN BIRYANI x "+q+" HAS TAKEN SUCCESSFULLY");
                         System.out.println("---------THANK YOU---------");
-                        n=5;
+                        n=5;// closing loop
                         break;
                     case 2:
                         System.out.print("QUANTITY - ");
                         int w = sc.nextInt();
                         System.out.println("\nYOUR ORDER BUTTER NAAN, BUTTER CHICKEN x "+w+" HAS TAKEN SUCCESSFULLY");
                         System.out.println("---------THANK YOU---------");
-                        n=5;
+                        n=5;// closing loop
                         break;
                     case 3:
                         System.out.print("QUANTITY - ");
                         int e = sc.nextInt();
                         System.out.println("\nYOUR ORDER MUTTON FRY x "+e+" HAS TAKEN SUCCESSFULLY");
                         System.out.println("---------THANK YOU---------");
-                        n=5;
+                        n=5;// closing loop
                         break;
 
                     default:
@@ -118,21 +118,21 @@ public class Qno_20 {
                         int q = sc.nextInt();
                         System.out.println("\nYOUR ORDER COCACOLA x "+q+" HAS TAKEN SUCCESSFULLY");
                         System.out.println("---------THANK YOU---------");
-                        n=5;
+                        n=5;// closing loop
                         break;
                     case 2:
                         System.out.print("QUANTITY - ");
                         int w = sc.nextInt();
                         System.out.println("\nYOUR ORDER LIME JUICE x "+w+" HAS TAKEN SUCCESSFULLY");
                         System.out.println("---------THANK YOU---------");
-                        n=5;
+                        n=5;// closing loop
                         break;
                     case 3:
                         System.out.print("QUANTITY - ");
                         int e = sc.nextInt();
                         System.out.println("\nYOUR ORDER CHOCOLATE MILKSHAKE x "+e+" HAS TAKEN SUCCESSFULLY");
                         System.out.println("---------THANK YOU---------");
-                        n=5;
+                        n=5;// closing loop
                         break;
 
                     default:
@@ -149,7 +149,7 @@ public class Qno_20 {
 
             default:
                 System.out.println("---------THANK YOU---------");
-                n++;
+                n++;// closing loop
                 break;
         }
     }    
