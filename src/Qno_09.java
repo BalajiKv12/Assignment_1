@@ -1,22 +1,27 @@
 //9.Write a Java program to convert an octal number to a hexadecimal number.
 
-import java.util.Scanner;  //importing Scanner function from util library
+//importing Scanner function from util library
+import java.util.Scanner;  
 
 public class Qno_09 {
     public static void main(String args[])
     {
-        Scanner sc = new Scanner(System.in); //initializing scanner function
+         //initializing scanner functio
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of a : ");
-        int a = sc.nextInt(8); // getting value of a in octal form using radix of 8
+        // getting value of a in octal form using radix of 8
+        int a = sc.nextInt(8); 
         int r;
         String s="",f="",b;
-        b=Integer.toOctalString(a); //saving the value of a in octal form
+         //saving the value of a in octal form
+        b=Integer.toOctalString(a);
 
         while(a>0)
         {
-            r=a%16; //coverting the deciaml to hexa-deciaml  by modulo-diving by 16 
-            
-            switch (r) //switchcase for remiders which are more than 8 and storing it in string s
+            //coverting the deciaml to hexa-deciaml  by modulo-diving by 16
+            r=a%16; 
+            //switchcase for remiders which are more than 8 and storing it in string s
+            switch (r) 
             {  
                 case 10:
                     s=s+'A';
@@ -43,11 +48,14 @@ public class Qno_09 {
             a=a/16;
         }
         char c;
-        for(int i = s.length()-1;i>=0;i--) //revering the string s
+        //revering the string s
+        for(int i = s.length()-1;i>=0;i--) 
         {
             c=s.charAt(i); 
-            f=f+c; // storing the reversed string in string f
+            // storing the reversed string in string f
+            f=f+c; 
         }
-        System.out.println("The hexa decimal value of "+b +" is : "+f); // printing the eqivalant hexa-decimal value
+        // printing the eqivalant hexa-decimal value
+        System.out.println("The hexa decimal value of "+b +" is : "+f);
     }
 }

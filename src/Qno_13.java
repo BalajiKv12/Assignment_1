@@ -1,9 +1,12 @@
-import java.util.Date; //importing date function from util library
+//importing date function from util library
+import java.util.Date; 
 
 public class Qno_13 {
     public static void main(String args[])
     {
-        Date d = new Date(); //initializing date function
-        System.out.println(d); // printing current date and time
+        //initializing date function
+        Date d = new Date(); 
+        // printing current date and time
+        System.out.println(d); 
     }
 }

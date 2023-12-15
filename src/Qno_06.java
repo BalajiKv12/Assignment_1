@@ -7,14 +7,17 @@ public class Qno_06 {
     {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the values of a and b : ");
-        int a = sc.nextInt();  //getting integer values of a and b from user
+        //getting integer values of a and b from user
+        int a = sc.nextInt();  
         int b = sc.nextInt();
 
-        a=a+b; // swapping without temporary variable
+        // swapping without temporary variable
+        a=a+b; 
         b=a-b;
         a=a-b;
 
-        System.out.println("a = "+a+"; b = "+b); //printing swapped values of a and b
+        //printing swapped values of a and b
+        System.out.println("a = "+a+"; b = "+b); 
     
     }
 }

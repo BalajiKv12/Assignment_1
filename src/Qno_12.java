@@ -1,13 +1,17 @@
 //12.Write a Java program to print the ASCII value of a given character.
 
-import java.util.Scanner;   //importing Scanner function from util library
+//importing Scanner function from util library
+import java.util.Scanner;   
 
 public class Qno_12 {
     public static void main(String args[])
     {
-        Scanner sc = new Scanner(System.in); //initializing scanner function
+        //initializing scanner function
+        Scanner sc = new Scanner(System.in); 
         System.out.println("Enter the string : ");
-        int c = sc.next().charAt(0); // getting character as integer from user 
-        System.out.println("ASCII value of "+(char)c+" is : "+c); //printing ASCII value of character c
+        // getting character as integer from user 
+        int c = sc.next().charAt(0); 
+        //printing ASCII value of character c
+        System.out.println("ASCII value of "+(char)c+" is : "+c); 
     }
 }

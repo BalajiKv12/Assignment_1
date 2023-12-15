@@ -3,14 +3,18 @@
 public class Qno_05 {
     public static void main(String args[])
     {
-        int a = 12,b = 6;  //initializing two variables of a and b
-        int temp; //initializing temporary variable for swapping
+         //initializing two variables of a and b
+        int a = 12,b = 6; 
+        //initializing temporary variable for swapping
+        int temp; 
 
-        temp=a; //storing value of a in temporary variable
+        //storing value of a in temporary variable
+        temp=a; 
         a=b;
         b=temp;
 
-        System.out.println("a = "+a+"; b = "+b); //printing swapped values of a and b
+        //printing swapped values of a and b
+        System.out.println("a = "+a+"; b = "+b); 
     
     }
 }
